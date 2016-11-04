@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>享美 - 销售管理系统</title>
+
+	<!-- Load CSS start -->
+	<link href="CSS/bootstrap.min.css" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="CSS/style.css" media="screen" />
+    <!-- // Load CSS end -->
+
+	<!-- Load Javascript start -->
+	<script type="text/javascript" src="JS/jquery.js"></script>
+	<script type="text/javascript" src="JS/function.js"></script>
+	<script type="text/javascript" src="JS/youyoum.js"></script>
+	<!-- // Load Javascipt end -->
+
+</head>
+<body>
+
+<div id="loginWrapper">
+
+     <div id="comtit"> 享美 - 销售管理系统 </div>
+
+     <div class="logtit">帐号登录</div>
+
+     <div class="wrapmiddle">
+          
+        <form action="">
+
+		    <label for="username" id="username_input" >
+		    <div class="userimg"><img id="url_user" src="Images/usericon.png" alt=""></div>
+		    <input type="text" name="username" id="username" value="请输入手机号" onclick="this.value = ''" >
+		    <div class="log_dc"></div>
+		    </label>
+
+
+            <label id="password_input" for="password" >
+				    <div class="userimg"><img id="url_password" src="images/passicon.png" alt=""></div>
+					<input type="password" name="password" id="password" value="请输入密码" onclick="this.value = ''">
+					<div class="log_dc"></div>
+			</label>
+
+
+			<label id="yanzhen_input" for="yzinput">
+				<div id="yanzhen_inputmiddle"> 
+					<input type="text"" name="yzinput" id="yzinput" value="验证码" onclick="this.value = ''">   <div class="log_dc"> <img src="images/dui.png"> </div>
+				</div>
+				<div class="login_code" ><img src="images/code.jpg"></div>
+				<div class="log_dc"></div>			
+			</label>
+
+
+            <div id="login_rem">
+                <input type="checkbox"> 记住我的登录?
+			</div>
+
+
+
+			<div id="login_submit">
+			     <input type="image" src="images/submit.png" id="submit1" value="Sign In">
+			</div>
+
+
+        </form>
+
+
+	
+
+
+			<div id="login_bottom">
+                 <div class="login_reg"><a href="reg.html">注册</a></div>
+                 <div class="login_forget"><a href="forget.html">忘记密码</a></div>
+                 <div class="login_wh"><img src="images/wenhao.png"></div>
+			</div>
+
+
+			
+
+
+     </div>
+
+</div>
+	
+</body>
+</html>
